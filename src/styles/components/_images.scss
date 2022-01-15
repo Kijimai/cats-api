@@ -1,0 +1,16 @@
+.section-images {
+  .inner-container {
+    max-width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(30rem, 1fr));
+    // grid-template-columns: repeat();
+    gap: 2rem;
+  }
+
+  .cat-image {
+    height: 100%;
+    width: 30rem;
+    object-fit: cover;
+  }
+}

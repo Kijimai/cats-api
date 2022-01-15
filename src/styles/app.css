@@ -1,0 +1,48 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  transition: color 0.1s ease, background-color 0.2s ease;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+
+body {
+  position: relative;
+  box-sizing: border-box;
+  background-color: hsl(var(--color-page-background));
+  min-width: 28rem;
+}
+
+ul {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--primary-font), sans-serif;
+}
+
+.section-images .inner-container {
+  max-width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(30rem, 1fr));
+  gap: 2rem;
+}
+.section-images .cat-image {
+  height: 100%;
+  width: 30rem;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=app.css.map */
